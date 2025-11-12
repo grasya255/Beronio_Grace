@@ -18,7 +18,7 @@
         }
 
         body {
-            background-image: url('bckgrnd.jpg'); /* Replace with your image path */
+            background-image:url('2bckgrnd.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -85,20 +85,8 @@
             }
         }
 
-        .image-section {
-            grid-column: 1/5;
-            text-align: center;
-            padding: 4rem 0px 0px 0px;
-
-            img {
-                border-radius: 100%;
-                width: 50%;
-                height: auto;
-            }
-        }
-
         .text-section {
-            grid-column: 5/11;
+            grid-column: 1/11;
             display: grid;
             place-content: center;
 
@@ -108,36 +96,23 @@
                 flex-direction: column;
             }
 
-            li:nth-child(1) {
+            h1 {
                 font-family: monospace;
-                font-size: 5rem;
                 text-align: center;
                 font-style: 'regular';
-                font-size: 100%;
+                font-size: 200%;
                 margin-top: 100px;
+                color:#487c1e;
             }
 
-            li:nth-child(2) {
+            h2 {
                 /* font-family: sans-serif; */
-                color:#A9511BCF;
+                color:#294200;
                 text-align: center;
+                font-size: 120%;
                 
             }
-            li:nth-child(3) {
-                /* font-family: sans-serif; */
-                color:#A9511BCF;
-                text-align: center;
-                font-style: 'Italic';
-                margin-top: 50px;
-            }
-            li:nth-child(4) {
-                /* font-family: sans-serif; */
-                color:#A9511BCF;
-                text-align: center;
-                margin-top: 50px;
-                margin-left: 500px;
-                font-style: 'Italic';
-            }
+           
         }
 
         .footer {
